@@ -14,8 +14,9 @@ static bool armstrong(int n) {
         return false;
 }
 
-int[] numbers = { 153, 370, 371, 407 };
+Console.WriteLine("Entrez un nombre : ");
 
-foreach (int n in numbers) {
-    Console.WriteLine($"{n} {(armstrong(n) ? "est" : "n'est pas")} un nombre d'Armstrong");
-}
+string saisie = Console.ReadLine();
+int n = int.Parse(saisie);
+
+Console.WriteLine($"{n} {(armstrong(n) ? "est" : "n'est pas")} un nombre d'Armstrong");
