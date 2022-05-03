@@ -1,5 +1,5 @@
-﻿using System.Globalization;
-// See https://aka.ms/new-console-template for more information
+﻿
+/* Détermine si un nombre est d'armstrong ou non */
 static bool armstrong(int n) {
     int sum = 0;
     int temp = n;
